@@ -1,0 +1,55 @@
+{
+	"bullet" : 
+	{
+		"fill b" : 255,
+		"fill g" : 255,
+		"fill r" : 255,
+		"lifespan" : 35,
+		"outline b" : 255,
+		"outline g" : 255,
+		"outline r" : 255,
+		"outline thickness" : 2,
+		"radius" : 5,
+		"speed" : 20,
+		"vertex" : 20
+	},
+	"enemy" : 
+	{
+		"lifespan" : 90,
+		"outline b" : 255,
+		"outline g" : 255,
+		"outline r" : 255,
+		"outline thickness" : 2,
+		"radius" : 24,
+		"spawn interval" : 79.75,
+		"speed max" : 12.579999923706055,
+		"speed min" : 9.5799999237060547,
+		"vertex max" : 8,
+		"vertex min" : 3
+	},
+	"laser" : 
+	{
+		"fill b" : 250,
+		"fill g" : 250,
+		"fill r" : 160,
+		"outline b" : 255,
+		"outline g" : 255,
+		"outline r" : 0,
+		"outline thickness" : 2,
+		"speed" : 25,
+		"width" : 12
+	},
+	"player" : 
+	{
+		"fill b" : 5,
+		"fill g" : 5,
+		"fill r" : 5,
+		"outline b" : 212.92498779296875,
+		"outline g" : 206.55000305175781,
+		"outline r" : 51.0,
+		"outline thickness" : 4,
+		"radius" : 32,
+		"speed" : 5,
+		"vertex" : 8
+	}
+}
