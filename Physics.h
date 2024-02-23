@@ -8,6 +8,7 @@ class Physics
 {
 public:
 
+	//check for collision between two entities
 	static bool isCollision(std::shared_ptr<Entity> e1, std::shared_ptr<Entity> e2)
 	{
 		float minDist = e1->cShape->circle.getRadius() + e2->cShape->circle.getRadius();
@@ -21,6 +22,7 @@ public:
 		return false;
 	}
 
+	//check for collision between entity and window bounds
 	static bool isBoundsCollisionX(std::shared_ptr<Entity> entity, float m_westBound, float m_eastBound)
 	{
 		if (entity->cTransform->pos.x < m_westBound || entity->cTransform->pos.x > m_eastBound)
