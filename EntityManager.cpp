@@ -1,7 +1,3 @@
-#include <vector>
-#include <map>
-#include <iostream>
-
 #include "EntityManager.h"
 
 typedef std::vector<std::shared_ptr<Entity>> EntityVec;
