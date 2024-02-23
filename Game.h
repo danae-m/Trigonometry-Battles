@@ -67,13 +67,6 @@ class Game
 {
 	sf::RenderWindow m_window;
 	sf::Clock m_deltaClock;
-	sf::RenderTexture renderTexture;
-	sf::Shader screenShader;
-	//screenShader.setUniform("u_resolution", sf::Glsl::Vec2{ window.getSize() });
-	//screenShader.setUniform("u_mouse", sf::Glsl::Vec2{ mouse_position });
-	//screenShader.setUniform("u_time", clock.getElapsedTime().asSeconds());
-	//sf::RenderTexture PPFX;
-	//sf::Vector2f screenSize;
 	sf::Font font;
 	sf::Text scoreText, playText, settingsText, exitText, diffText, speedText, spText, redText, blueText, greenText, colorText, saveText;
 	sf::Color pFill, pOut;
