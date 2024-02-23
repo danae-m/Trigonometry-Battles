@@ -3,7 +3,6 @@
 
 #include <vector>
 #include <map>
-#include <iostream>
 
 #include "Entity.h"
 
@@ -25,7 +24,7 @@ public:
 	void destroyEntity(std::shared_ptr<Entity>);
 	const EntityVec& getEntities();
 	const EntityVec& getEntities(const std::string& tag);
-	const std::map<std::string, EntityVec>& getEntityMap(); //do this
+	const std::map<std::string, EntityVec>& getEntityMap();
 
 };
 
